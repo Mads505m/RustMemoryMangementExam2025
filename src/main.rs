@@ -1,5 +1,10 @@
 mod hukommelsestest;
+mod lifo;
+mod ownership;
+mod lifetime;
+mod borrow;
 
+//Main med mix fra alle tix undtagen hukommelsestesten, hvor koden bare kan kopiers herind.
 fn main() {
     let mut s = String::from("Borrow Checker");
 
