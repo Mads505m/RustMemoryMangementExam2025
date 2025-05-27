@@ -1,3 +1,5 @@
+mod hukommelsestest;
+
 fn main() {
     let mut s = String::from("Borrow Checker");
 
